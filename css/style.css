@@ -1,3 +1,25 @@
-header{
-    background-color: brown;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu-principal{
+    display: inline-block;
+}
+
+
+.menu{
+   display: inline-block;
+   text-align: center;
+   width: 150px; 
+   border: 1px solid black; 
+   margin: 5px 10px 5px 10px;
+   padding: 5px;
+   font-size: 20px; 
+   text-decoration: none;
+   background-color: #c0bb72;
+}
+
+a{
+    color:black;
+    text-decoration: none;
 }
