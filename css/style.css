@@ -6,15 +6,17 @@ body{
     display: inline-block;
 }
 
-
+i{
+    float: left;
+}
 .menu{
    display: inline-block;
    text-align: center;
-   width: 150px; 
+   width: 160px; 
    border: 1px solid black; 
    margin: 5px 10px 5px 10px;
    padding: 5px;
-   font-size: 20px; 
+   font-size: 18px; 
    text-decoration: none;
    background-color: #c0bb72;
 }
