@@ -62,3 +62,30 @@ footer{
     height: 150px;
     background-color: darkgreen !important;
 }
+
+
+article{
+    margin: 10px;
+    float: left;    
+}
+#textoarticulo{
+    width: 58%;
+}
+
+#imagenarticulo{
+    width: 38%;
+}
+
+p{
+    margin: 10px 15px;
+}
+
+article>section>ul{
+   margin-left: 60px;
+   font-size: 1.3rem;
+}
+
+#imagenarticulo section>img{
+   width: 90%; 
+   height: 300px;
+}
