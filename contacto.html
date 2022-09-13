@@ -4,14 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/f5e1f3458c.js" crossorigin="anonymous"></script>
+    <title>Web Ipvg 2022 - Interfaz de Usuario</title>
 </head>
 <body>
-    <header>
-        <h1>Contacto</h1>
+    <header id="principal">
+        <h1>Interfaz de Usuario 2022</h1>
     </header>
-    <nav>
-        <a href="index.html">Inicio</a>
+    <nav class="contenedor">
+        <ul id="menu-principal">
+            <li class="menu"><a href="index.html"><i class="fa-solid fa-house-chimney"></i><span>Inicio</span></a></li>
+            <li class="menu"><a href="quienessomos.html"><i class="fa-solid fa-people-group"></i><span>Quienes Somos</span></a></li>
+            <li class="menu"><a href="publicaciones.html"><i class="fa-solid fa-folder-open"></i><span>Publicaciones</span></a></li>
+            <li class="menu"><a href="servicios.html"><i class="fa-solid fa-laptop"></i><span>Servicios</span></a></li>
+            <li class="menu"><a href="contacto.html"><i class="fa-solid fa-envelope"></i><span>Contacto</span></a></liclass="menu">
+        </ul>
     </nav>
+    <section id="contenido" class="contenedor">
+        <article id="formulariocontacto">
+            <header>
+                <h2>Contacto</h2>
+            </header>
+            <section style="margin-bottom: 10px; padding-bottom: 10px;">
+                <form action="">
+                    <div class="control">
+                        <label for="txtnombre">Nombre:</label>
+                        <input class="intexto" type="text" name="txtnombre" id="txtnombre" placeholder="Ingrese su nombre" required autocomplete="off">                      
+                    </div>
+                    <div class="control">
+                        <label for="">Clave</label>
+                        <input class="intexto" type="password" name="txtclave" id="txtclave" placeholder="Ingrese clave" maxlength="10">          
+                    </div>
+                    <div class="control">
+                        <label for="">Edad</label>
+                        <input class="intexto" type="number" name="txtedad" id="txtedad" placeholder="Ingrese edad" maxlength="3" value="18">          
+                    </div>
+                    <div class="control">
+                        <label for="">Email</label>
+                        <input class="intexto" type="email" name="txtemail" id="txtemail" placeholder="Ingrese email">          
+                    </div>
+
+                    <div>
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">HTML</label><br>
+                            <input type="radio" id="css" name="fav_language" value="CSS">
+                            <label for="css">CSS</label><br>
+                            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                            <label for="javascript">JavaScript</label>
+                    </div>
+                    <div>
+                        <button class="buttonform" type="reset">Limpiar</button>
+                        <button class="buttonform" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </article>
+    </section>
+    <footer class="contenedor">
+
+        <p>Todos los derechos reservador 2022</p>
+    </footer>
+  
+
 </body>
 </html>
