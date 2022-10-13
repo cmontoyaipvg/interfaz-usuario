@@ -76,3 +76,17 @@ article{
 .imgs{
     width: 110px;
 }
+table{
+    width: 100%;
+}
+
+th{
+    background: yellow;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid;
+  }
+
+  tr:hover {background-color: coral;}
