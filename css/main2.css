@@ -1,0 +1,29 @@
+
+body{
+    background: rgb(55,121,9);
+background: radial-gradient(circle, rgba(55,121,9,0.9822303921568627) 35%, rgba(217,255,0,0.8673844537815126) 100%);    
+}
+
+.login{
+    background: white;
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    height: 500px;   
+}
+
+.titulologin{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 5px;
+    background: #131212;
+    height: 40px;
+    margin: 0px;  
+    border-radius: 20px 20px 0 0;
+}
