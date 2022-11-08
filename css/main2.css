@@ -1,6 +1,10 @@
 
 body{
+<<<<<<< HEAD
 background-image: url('../images/fondo3.jpg')   
+=======
+    background: rgb(55,121,9);
+>>>>>>> 958f55cf7276f66fcff318123147faacc4f8ce66
 }
 
 .login{
